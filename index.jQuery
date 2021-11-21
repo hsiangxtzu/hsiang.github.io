@@ -2,7 +2,7 @@ html
 {
   <script>
   $(document).ready(function() {
-    $("#target1").css("color", "red");
+    $("蠟筆小新").css("color", "red");
     $("#target1").prop("disabled", true);
     $("#target4").remove();
     $("#target2").appendTo("#right-well");
