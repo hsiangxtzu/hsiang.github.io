@@ -1,10 +1,8 @@
-html
-{
 <script>
   $(document).ready(function() {
-    $("蠟筆小新").css("color", "red");
-    $("看球賽").prop("disabled", true);
-    $("到戶外走走").remove();
+    $("#target1").css("color", "red");
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
     $("#target2").appendTo("#right-well");
     $("#target5").clone().appendTo("#left-well");
     $("#target1").parent().css("background-color", "red");
@@ -13,3 +11,4 @@ html
     $(".target:nth-child(2)").addClass("animated bounce");
 
   });
+</script>
