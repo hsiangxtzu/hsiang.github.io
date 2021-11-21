@@ -1,6 +1,6 @@
 html
 {
-<script>
+  <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
     $("#target1").prop("disabled", true);
@@ -13,5 +13,5 @@ html
     $(".target:nth-child(2)").addClass("animated bounce");
 
   });
-</script>
+  </script>
 }
