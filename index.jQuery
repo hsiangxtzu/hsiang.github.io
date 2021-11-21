@@ -2,6 +2,11 @@ html
 {
   <script>
   $(document).ready(function() {
+
+  });
+</script>
+  <script>
+  $(document).ready(function() {
     $("#target1").css("color", "red");
     $("#target1").prop("disabled", true);
     $("#target4").remove();
